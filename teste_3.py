@@ -20,7 +20,7 @@ Observações:
 Todas as entradas devem ser validadas.
 O programa deve ser estruturado com funções.
 Use uma lista para armazenar os dados dos fornecedores.'''
-numfor= []
+
 
 
 def Numfor():
@@ -39,9 +39,9 @@ def ValorFor():
 class forn:
     def __init__(self,nome,endereco,telefone,nif):
         Numfor()    
-        nome=input("Nome do fornecedor: ")
-        endereco=input("Escreva o endereco do fornecedor: ")
+        self.nome=nome=input("Nome do fornecedor: ")
+        self.edendereco=endereco=input("Escreva o endereco do fornecedor: ")
         telefone=input("Telefone do fornecedor: ")
         nif=input("NIF do fornecedor: ")
         ValorFor()
-        
+    
