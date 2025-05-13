@@ -21,7 +21,11 @@ Todas as entradas devem ser validadas.
 O programa deve ser estruturado com funções.
 Use uma lista para armazenar os dados dos fornecedores.'''
 
+fornecedores=[]
 
+def desc(valorfor):
+        if 1000< valorfor <5000:
+            valorfor
 
 def Numfor():
     for i in range(1,10000):
@@ -32,16 +36,15 @@ def Numfor():
 def ValorFor():
     valorfor = random.randint(1000, 10000)
     print(f"{valorfor}€")
-    def desc():
-        if 1000< valorfor <5000:
-            valorfor
+    
 
 class forn:
-    def __init__(self,nome,endereco,telefone,nif):
-        Numfor()    
-        self.nome=nome=input("Nome do fornecedor: ")
-        self.edendereco=endereco=input("Escreva o endereco do fornecedor: ")
-        telefone=input("Telefone do fornecedor: ")
-        nif=input("NIF do fornecedor: ")
-        ValorFor()
+    def __init__(self,nfor,nome,endereco,telefone,nif,valor):
+        self.nfor=Numfor()    
+        self.nome=nome
+        self.endereco=endereco
+        self.tetelefone=telefone
+        self.nif=nif
+        self.valor=ValorFor()
+
     
